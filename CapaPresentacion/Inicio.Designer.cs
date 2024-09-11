@@ -189,7 +189,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(23, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(281, 45);
+            this.label1.Size = new System.Drawing.Size(270, 44);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sistema Ventas";
             // 
@@ -217,6 +217,7 @@
             this.Controls.Add(this.menutitulo);
             this.MainMenuStrip = this.menu;
             this.Name = "Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
